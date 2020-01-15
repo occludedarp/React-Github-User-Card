@@ -9,7 +9,7 @@ class App extends React.Component {
     super();
     this.state = {
       users: []
-    };
+    };  
     console.log('constructor phase first')
   }
 
@@ -35,7 +35,6 @@ class App extends React.Component {
       </div>
     );
   }
-
 }
 
 export default App;
