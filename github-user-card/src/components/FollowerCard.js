@@ -1,6 +1,6 @@
 import React, { fragment } from "react";
 
-function UserCard(props) {
+function FollowerCard(props) {
   return(
     <>
       <div style={{width: "400px", margin: "2% auto", boxShadow: "0px 10px 20px 5px", borderRadius: "15px", overflow: "hidden" }}>
@@ -15,4 +15,4 @@ function UserCard(props) {
 
 }
 
-export default UserCard;
+export default FollowerCard;
