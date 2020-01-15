@@ -3,15 +3,14 @@ import React, { fragment } from "react";
 function UserCard(props) {
   return(
     <>
-      {props.users.map(user => (
-        <div key={user.id}>
-          <img/>
+        <div>
+          <img src={props.image} style={{height: "400px", width: "400px"}}/>
           <div>
-            <h3></h3>
+            <h3>{props.login}</h3>
             <p></p>
           </div>
         </div>
-      ))}
+      
     </>
   )
 
